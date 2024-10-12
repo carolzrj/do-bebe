@@ -3,33 +3,32 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>O Bebê</title>
     </head>
     <body>
-        <header>
-            <a href="./index.html">
-                <p class="logo">
-                <span class="--gradient-text">LOGOAQUI</span>
-                XXXXX
-                </p>
-            </a>
-            <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="gestacao.html">Gestação</a></li>
-                <li><a href="recados.html">Recados</a></li>
-                <li><a href="https://google.com" target="_blank">Lista de Presente</a></li>
-            </ul>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Início</a>
+                <a class="cabecalho__menu__link" href="recados.html">Recados</a>
+                <a class="cabecalho__menu__link" href="https://google.com" target="_blank">Lista de Presente</a>
             </nav>
         </header>
-        <main>
-        Conteúdo principal
-            <section>Seção com conteúdo relacionado ao mesmo tema</section>
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Bem vindo(a), <strong class="titulo-destaque">bebê</strong>!</h1>
+                <p class="apresentacao__conteudo__texto">Um jeitinho de acompanhar de perto, mesmo estando longe!</p>
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links__botao" href="https://www.instagram.com/">Contador</a>
+                    <a class="apresentacao__links__botao" href="">Álbum</a>
+                </div>
+            </section>
+            <img src="imagens/cegonhainicial.gif" alt="">
         </main>
-    <footer>
-    <p>&copy; 2024 MELHOR TIA carolz - Todos os direitos reservados.</p>
-    </footer>
+        <footer class="rodape">
+        <p>Em constante desenvolvimento por carolz.</p>
+        </footer>
     </body>
 </html>
