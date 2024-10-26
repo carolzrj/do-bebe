@@ -5,10 +5,10 @@ html{
 }
 
 :root {
-    --cor-primaria: #fff5cd;
-    --cor-secundaria: #B7E0FF;
-    --cor-terciaria: #E78F81;
-    --cor-hover: #FFCFB3;
+    --cor-primaria: #FFDDCC;
+    --cor-secundaria: #FFCCCC;
+    --cor-terciaria: #f785a1;
+    --cor-hover: #FFEECC;
     --cor-texto: #130f0f;
     --cor-hover-botao: #130f0fc2;
 
@@ -18,13 +18,15 @@ html{
 
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: var(--cor-texto); 
-    margin: 0;   
+    color: var(--cor-texto);    
 }
 
 .cabecalho {
@@ -40,6 +42,7 @@ body {
 .cabecalho__menu__link {
     text-decoration: none;
     font-family: var(--font-secundaria);
+    border-color: #130f0fc2;
     font-size: 2rem;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -117,11 +120,11 @@ body {
     display: flex;
     justify-content: end;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
-    padding: 1%;    
+    background-color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
     font-size: 1.4rem;
     font-weight: 400;
+    padding: 1%;
 }
 
 @media (max-width: 1200px) {
