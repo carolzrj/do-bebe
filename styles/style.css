@@ -5,10 +5,10 @@ html{
 }
 
 :root {
-    --cor-primaria: #FFDDCC;
-    --cor-secundaria: #FFCCCC;
-    --cor-terciaria: #f785a1;
-    --cor-hover: #FFEECC;
+    --cor-primaria: #c0b7ba2d;
+    --cor-secundaria: #ff9fb4;
+    --cor-terciaria: #f04d76;
+    --cor-hover: #adadad;
     --cor-texto: #130f0f;
     --cor-hover-botao: #130f0fc2;
 
@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: var(--font-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     border: 3px solid var(--cor-hover);
     width: 35%;
     text-align: center;
@@ -103,7 +103,7 @@ body {
     font-weight: 500;
     padding: 1.5% 3%;
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__links__botao:hover{
@@ -119,7 +119,7 @@ body {
 .rodape{
     display: flex;
     justify-content: end;
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
     background-color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
     font-size: 1.4rem;
