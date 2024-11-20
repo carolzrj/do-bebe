@@ -13,10 +13,10 @@ function calcularSemanas() {
   
     // Ajustar para contar a partir de 0 e atualizar apenas sextas-feiras
     const diaDaSemana = hoje.getDay(); // 0 = domingo, 6 = sábado
-    if (diaDaSemana < 5) { // Se não for sexta-feira, arredonda para baixo
-      return semanas - 1;
-    } else {
+    if (diaDaSemana <= 5) { // Se não for sexta-feira, arredonda para baixo
       return semanas;
+    } else {
+      return semanas - 1;
     }
   }
   
